@@ -7,5 +7,6 @@ class MainActivity: FlutterActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         NotificationHelper.createChannel(this)
+        NotificationHelper.showNotification(this)
     }
 }
