@@ -1,16 +1,12 @@
-# direct_reply_notification
+## Direct Reply Notification
 
-A new Flutter project.
+#### Preparation
+* flutter [install from here](https://flutter.dev/docs/get-started/install)
+* A device or emulator. 
 
-## Getting Started
+If you don't have a connected device or emulator, you can follow this [blog](https://medium.com/@vreamer/use-bluestacks-4-to-run-android-apps-with-flutter-on-mac-in-2-minutes-205571685a13) to prepare BlueStacks as an emulator.
 
-This project is a starting point for a Flutter application.
+#### Take following steps to run this app locally
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* `flutter pub get`
+* `flutter run`
