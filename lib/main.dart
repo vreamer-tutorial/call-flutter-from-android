@@ -1,7 +1,9 @@
+import 'package:direct_reply_notification/flutter-method-channel.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
+  FlutterMethodChannel.instance.configureChannel();
 }
 
 class MyApp extends StatelessWidget {
