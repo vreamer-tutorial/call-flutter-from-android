@@ -10,3 +10,6 @@ If you don't have a connected device or emulator, you can follow this [blog](htt
 
 * `flutter pub get`
 * `flutter run`
+
+#### Demo
+[Demo](https://i.imgur.com/LPdHK7p.gifv)
