@@ -10,4 +10,8 @@ object NativeMethodChannel {
     fun configureChannel(flutterEngine: FlutterEngine) {
         methodChannel = MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL_NAME)
     }
+
+    fun showNewIdea(idea: String) {
+        methodChannel.invokeMethod("showNewIdea", idea)
+    }
 }

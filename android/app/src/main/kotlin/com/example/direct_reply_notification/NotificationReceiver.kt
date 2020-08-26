@@ -14,6 +14,7 @@ class NotificationReceiver : BroadcastReceiver() {
             val title = remoteInput.getCharSequence(
                     NotificationHelper.KEY_TEXT_REPLY).toString()
             Log.d("NotificationReceiver", title)
+            NativeMethodChannel.showNewIdea(title)
             NotificationHelper.showNotification(context)
         }
     }
